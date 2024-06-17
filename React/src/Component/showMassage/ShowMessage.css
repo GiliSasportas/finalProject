@@ -1,0 +1,52 @@
+/* 
+     #text{
+        grid-column-start:2  ;
+        grid-row-start: 2;
+        
+       
+     }
+     #text h1{
+        width: 510px;
+        animation: num  2s 5ms ;
+        padding: 0px;
+     }
+      
+
+
+@keyframes num {
+    0%{
+        transform:translateX(5000px) ;
+    }
+    50%{
+       transform:translateX(5000px) ;
+    }
+   
+} */
+
+     
+#text{
+   grid-column-start:2  ;
+   grid-row-start: 2;
+   
+  
+}
+#text h1{
+   width: 510px;
+   animation: num  2s 5ms ;
+   padding: 0px;
+}
+ 
+
+
+@keyframes num {
+0%{
+   transform:translateX(5000px) ;
+}
+50%{
+  transform:translateX(5000px) ;
+}
+
+}
+
+
+

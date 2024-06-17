@@ -1,0 +1,103 @@
+/* .student-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+ 
+ .student-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+ }
+ 
+ .student-details div {
+    margin-top: 10px;
+ }
+ 
+ .student-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+ } */
+
+ .search-section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    background-color: #f9f9f9;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+
+  .student-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    justify-content: end;
+
+ }
+ /* .student-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+ } */
+ 
+ .student-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+ 
+ .details-container {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+ }
+ 
+ .detail-label {
+    font-weight: bold;
+    margin-right: 10px;
+ }
+ 
+ .detail-value {
+    flex: 1;
+ }
+ .additional-checkboxes {
+    display: none;
+}
+
+.additional-checkboxes.show {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
